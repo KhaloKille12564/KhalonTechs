@@ -267,11 +267,11 @@ This code controls that cool parallax image and scrolling effect. Change the ima
 .parallax {
     background-image: url("parallax.jpg");
 /* Set a specific height */
-    height: 500px;
+    height: 200px;
 /* control the parallax scrolling effect */
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     margin-top: 100px;
     margin-bottom: 0px;
